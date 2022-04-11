@@ -1,5 +1,6 @@
 import {useState} from "react"
 
+import "./App.css";
 
 
 function App() {
@@ -56,18 +57,18 @@ function App() {
       <div className="addScore">
         Add Score
         {/* these buttons should add the respective amount in the score */}
-        <button className="addScore1" onClick={()=>Change(1,score, setScore)}>Add 1</button>
-        <button className="addScore4" onClick={()=>Change(4,score, setScore)}>Add 4</button>
-        <button className="addScore6" onClick={()=>Change(6,score, setScore)}>Add 6</button>
+        <button className="btn" onClick={()=>Change(1,score, setScore)}>Add 1</button>
+        <button className="btn" onClick={()=>Change(4,score, setScore)}>Add 4</button>
+        <button className="btn" onClick={()=>Change(6,score, setScore)}>Add 6</button>
       </div>
 
-      <div className="addWicket">
+      <div className="btn">
         Add Wicket
         {/* Increase the count of wicket */}
-        <button onClick={()=>Change(1,wicket, setWicket)}>Add 1 wicket</button>
+        <button onClick={()=>Change(1,wicket, setWicket)}>Add 1</button>
       </div>
 
-      <div className="addBall">
+      <div className="btn">
         Add ball
         {/* Increase the total number of balls thrown here. */}
         <button onClick={()=>Change(1,ball, setBall)}>Add 1</button>

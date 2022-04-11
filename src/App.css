@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+ 
+
 }
 
 .App-logo {
@@ -24,8 +26,24 @@
   color: white;
 }
 
+.banner{
+  display:flex;
+  justify-content: space-between;
 
 
+}
+.addScore{
+  justify-content: space-between;
+  
+}
+.addWicket{
+  justify-content: space-between;
+
+}
+.addBall{
+  justify-content: space-between;
+
+}
 
 .App-link {
   color: #61dafb;
